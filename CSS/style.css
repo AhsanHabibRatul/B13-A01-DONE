@@ -165,6 +165,87 @@ margin-top: 50px;
 }
 .skill-card p {
     color: #627382;
-    font-size: 12px;
-    margin-left: 10px;
+    font-size: 15px;
+    margin-left: 16px
+    
+}
+
+.icon {
+    display: flex;
+}
+.Container{
+    display: flex;
+    padding: 60px;
+    gap:60px
+}
+.right span p {
+    margin-top: 100px;
+    color: #4caf50;
+    margin-bottom: 30px;
+}
+.right p {
+    color: #627382;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+    font-weight: 500;
+}
+.left img {
+    width: 500px;
+}
+.ready {
+    padding: 60px;
+}
+.ready .ready-container {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(247, 246, 242, 1);
+    padding: 80px 40px;
+
+}
+
+.ready .ready-container p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+
+
+
+
+.last-button {border: none;
+    border-radius: 4px;
+ background-color: #508565;
+ color: white;
+ padding: 14px 20px;
+ 
+}
+.ready-heading p
+{
+color: #627382;
+}
+.ready-heading ul {
+    display: flex;
+}
+.footer-container {
+ background-color: #001931; 
+ padding: 60px;  
+justify-content: space-between;
+}
+.icons {
+    text-align: right;
+    color: #fff;
+}
+.footer-container p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#vejal {
+    color: #fff;
+    text-align: right;
 }
