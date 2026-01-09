@@ -33,7 +33,7 @@ color: black;
 
 .btn {border: none;
     border-radius: 4px;
-
+cursor: pointer;
 
  background-color: #508565;
  color: white;
@@ -41,6 +41,9 @@ color: black;
  font-weight: bold;
  line-height: 19px;
 text-align: left;
+}
+.btn:hover{
+    background:#001931;
 }
 
 .banner {
@@ -82,8 +85,10 @@ text-align: left;
 display: flex;
 justify-content: center;
 gap: 20px;
-
+cursor: pointer;
 }
+
+
 .btn-1st {
     padding: 12px 22px;
     background-color: #4caf50;
@@ -91,6 +96,9 @@ gap: 20px;
     text-decoration: none;
     font-weight: 500;
     color:#fff
+}
+.btn-1st:hover{
+    background: #001931;
 }
 .btn-2nd {
     padding: 12px 22px;
@@ -101,6 +109,9 @@ color: white;
 font-weight: 500;
 
 }
+.btn-2nd:hover{
+    background: #001931;
+}
 .gb {
     display: inline-block;
     background-color: #fff;
@@ -109,6 +120,9 @@ font-weight: 500;
     border-radius: 20px;
     font-size: 14px;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+.gb:hover{background: #001931;
 }
 .skills{
     padding-top: 100px;
@@ -223,7 +237,10 @@ margin-top: 50px;
  background-color: #508565;
  color: white;
  padding: 14px 20px;
- 
+ cursor: pointer;
+}
+.last-button:hover{
+    background: #001931;
 }
 .ready-heading p
 {
