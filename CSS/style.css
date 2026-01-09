@@ -33,6 +33,8 @@ color: black;
 
 .btn {border: none;
     border-radius: 4px;
+
+
  background-color: #508565;
  color: white;
  padding: 14px 20px;
@@ -232,14 +234,16 @@ color: #627382;
 .footer-container {
  background-color: #001931; 
  padding: 60px;  
-justify-content: space-between;
+
 }
 .icons {
     text-align: right;
-    color: #fff;
+    color: #ff0000;
+    border-radius: 50%;
+
 }
 .footer-container p {
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -248,4 +252,5 @@ justify-content: space-between;
 #vejal {
     color: #fff;
     text-align: right;
+    
 }
